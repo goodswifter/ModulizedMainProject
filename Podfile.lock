@@ -1,0 +1,34 @@
+PODS:
+  - ADCase (0.1.1)
+  - ADCase_Category (0.1.0):
+    - CTMediator
+  - ADMine (0.1.0):
+    - ADCase_Category
+  - ADMine_Category (0.1.1):
+    - CTMediator
+  - CTMediator (31)
+
+DEPENDENCIES:
+  - ADCase
+  - ADCase_Category
+  - ADMine
+  - ADMine_Category
+
+SPEC REPOS:
+  trunk:
+    - ADCase
+    - ADCase_Category
+    - ADMine
+    - ADMine_Category
+    - CTMediator
+
+SPEC CHECKSUMS:
+  ADCase: 811effcd5d89f8152ac561252a7ae8c855596bcc
+  ADCase_Category: 19468a223f998000a1aca0a925ab90c1902ec139
+  ADMine: 3d57de75742a1eeda03b671f939f272b88c5abf3
+  ADMine_Category: 9b45eee76cba9f433b45debaf84158dcdec13bb0
+  CTMediator: 24a1279bd0909608c7d6a704e660149cc64e5f87
+
+PODFILE CHECKSUM: 4cc693a4be2622a1c8c86b40fcf67b5db49af0df
+
+COCOAPODS: 1.9.1
